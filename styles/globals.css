@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.card {
+  @apply bg-slate-300 rounded-md w-1/2 p-7;
+}
+
+.headerTitle {
+  @apply text-3xl font-medium;
+}
+
+.btn {
+  @apply text-black bg-slate-400 p-3 rounded-md hover:bg-slate-500;
+}
+
+.itemCard {
+  @apply flex items-center justify-between  w-full rounded-md shadow-md cursor-pointer p-3;
+}
+
+.chip {
+  @apply rounded-full bg-slate-400 text-black px-4 py-2;
+}
+.checkbox {
+  @apply h-4 w-4 cursor-pointer;
+}
