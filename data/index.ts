@@ -1,5 +1,5 @@
 import type { dataModel } from "./data.interface";
-export const data: dataModel[] = [
+export const StoredData: dataModel[] = [
   {
     id: "A",
     title: "item 1",

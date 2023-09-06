@@ -37,3 +37,6 @@ a {
 .checkbox {
   @apply h-4 w-4 cursor-pointer;
 }
+.subItems {
+  @apply mt-2 w-full px-2;
+}
